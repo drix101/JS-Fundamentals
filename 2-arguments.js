@@ -1,4 +1,4 @@
-const argsFigure = process.argv.length(2);
+const argsFigure = process.argv.length - 2;
 
 if (argsFigure === 0){
     console.log("No argument");
