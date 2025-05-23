@@ -1,8 +1,8 @@
-const argsFigure = process.argv(2);
+const argsFigure = process.argv[2];
 
-if (argsFigure === 0){
+if (argsFigure === undefined){
 
     console.log("No argument");
 } else {
-    console.log('first argument');
-}
+    console.log('argument');
+};
