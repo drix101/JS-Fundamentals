@@ -1,10 +1,12 @@
-const argsFigure = process.argv.length - 2;
+const argsFigure = process.argv.slice(2);
 
-if (argsFigure === 0){
+if (argsFigure.length === 0){
+
     console.log("No argument");
-} else if (argsFigure === 1){
+} else if (argsFigure.length === 1){
+    
     console.log("Argument found");
 
 } else {
-    console.log("Argumnents found");
+    console.log("Arguments found");
 };
